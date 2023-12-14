@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Destiny</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <section id="equipments">
+        <h1>Loadout:</h1>
+
+        <section id="weapon">
+            <h2>Class ability:</h2>
+            <div id="class_ability"></div>
+
+            <h2>Kinetic weapon:</h2>
+            <div id="kinetic_weapon"></div>
+
+            <h2>Energy weapon:</h2>
+            <div id="energy_weapon"></div>
+
+            <h2>Power weapon:</h2>
+            <div id="power_weapon"></div>
+        </section>
+
+        <section id="armor">
+            <h2>Helmet:</h2>
+            <div id="helmet"></div>
+
+            <h2>Gauntlets:</h2>
+            <div id="gauntlets"></div>
+
+            <h2>Chest armor:</h2>
+            <div id="chest_armor"></div>
+
+            <h2>Leg armor:</h2>
+            <div id="leg_armor"></div>
+
+            <h2>Class armor:</h2>
+            <div id="class_armor"></div>
+        </section>
+
+    </section>
+    
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div {
+            color: initial;
+        }
+
+        .pai h3~p {
+            color: green;
+        }
+
+        #equipments {
+            display: flex;
+        }
+
+        #weapon,
+        #armor {
+            flex: 50%;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+
+</body>
+
+</html>
